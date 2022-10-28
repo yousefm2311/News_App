@@ -36,7 +36,7 @@ class MyApp extends StatelessWidget {
         builder: (context, state) {
           NewsAppCubit cubit = NewsAppCubit.get(context);
           return MaterialApp(
-            title: 'News App',
+            title: 'News_App',
             theme: ThemeData(
               textTheme: const TextTheme(
                   bodySmall: TextStyle(color: Colors.black),
